@@ -37,12 +37,6 @@
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "🌍 国际",
-      "type": 0,
-      "url": "https://iptv-org.github.io/iptv/index.m3u",
-      "playerType": 1
     }
   ],
   "sites": [
@@ -129,15 +123,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_Libvio",
-      "name": "🦋 破茧",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Xb6v",
       "name": "🍎 新6V",
       "type": 3,
@@ -165,28 +150,10 @@
       "filterable": 1
     },
     {
-      "key": "csp_Nfys",
-      "name": "🔴 奈飞",
-      "type": 3,
-      "api": "csp_Nfys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Cokemv",
       "name": "🥤 可乐",
       "type": 3,
       "api": "csp_Cokemv",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Jumi",
-      "name": "🎭 剧迷",
-      "type": 3,
-      "api": "csp_Jumi",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
