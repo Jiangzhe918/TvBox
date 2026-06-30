@@ -203,24 +203,16 @@
             ]
         }
     ],
-    "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
     "hosts": [
         "img1.wsyzy.org=fan.cloudflare.182682.xyz",
         "fiizvfck.top=fan.cloudflare.182682.xyz",
         "images.67c6c7a.com=fan.cloudflare.182682.xyz"
     ],
     "lives": [
-        
         {
             "name": "范明明（需开启V6网络）",
             "type": 0,
             "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
-            "playerType": 2
-        },
-        {
-            "name": "世界杯",
-            "type": 0,
-            "url": "http://82.156.243.185:33389/fwc.m3u",
             "playerType": 2
         }
     ]
