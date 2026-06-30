@@ -3,12 +3,20 @@
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "lives": [
     {
-      "name": "📺 饭硬",
+      "name": "🌐 明6",
       "type": 0,
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.txt",
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "epg": "https://live.fanmingming.com/e.xml",
+      "logo": "https://live.fanmingming.com/tv/logo/{name}.png"
+    },
+    {
+      "name": "📺 明4",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/v6.m3u",
+      "playerType": 1,
+      "epg": "https://live.fanmingming.com/e.xml",
+      "logo": "https://live.fanmingming.com/tv/logo/{name}.png"
     },
     {
       "name": "📡 肥猫",
@@ -17,9 +25,23 @@
       "playerType": 1
     },
     {
-      "name": "🌐 明明",
+      "name": "🐑 肥羊",
       "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/Yuechan/Live/main/IPTV.m3u",
+      "playerType": 1
+    },
+    {
+      "name": "📺 饭硬",
+      "type": 0,
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.txt",
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "🌍 国际",
+      "type": 0,
+      "url": "https://iptv-org.github.io/iptv/index.m3u",
       "playerType": 1
     }
   ],
@@ -102,6 +124,78 @@
       "name": "🏝️ 傲视",
       "type": 3,
       "api": "csp_Auete",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Libvio",
+      "name": "🦋 破茧",
+      "type": 3,
+      "api": "csp_Libvio",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Xb6v",
+      "name": "🍎 新6V",
+      "type": 3,
+      "api": "csp_Xb6v",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Pianku",
+      "name": "🎬 片库",
+      "type": 3,
+      "api": "csp_Pianku",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_LiteApple",
+      "name": "🍏 苹果",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Nfys",
+      "name": "🔴 奈飞",
+      "type": 3,
+      "api": "csp_Nfys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Cokemv",
+      "name": "🥤 可乐",
+      "type": 3,
+      "api": "csp_Cokemv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Jumi",
+      "name": "🎭 剧迷",
+      "type": 3,
+      "api": "csp_Jumi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Bttwoo",
+      "name": "🛸 ＢＴ",
+      "type": 3,
+      "api": "csp_Bttwoo",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
