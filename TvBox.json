@@ -1,27 +1,6 @@
 {
-  "spider": "https://zl.wpscdn.cn/2026/06/29/space_img/701df858-5fe4-4ac0-bc9a-f86a87a8cbf5.jpg;md5;0c32d054350e007ba83c2feacfc1f0ac",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Jiangzhe918/TvBox/refs/heads/main/custom_spider.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
-  "rules": [
-        {
-            "name": "cdn.ryplay",
-            "hosts": [
-                "cdn.ryplay"
-            ],
-            "regex": [
-                "5.480000",
-                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
-                "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
-                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-            ]
-        }
-    ],
-    "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
-    "hosts": [
-        "img1.wsyzy.org=fan.cloudflare.182682.xyz",
-        "fiizvfck.top=fan.cloudflare.182682.xyz",
-        "images.67c6c7a.com=fan.cloudflare.182682.xyz"
-    ],
   "lives": [
     {
       "name": "🌐 明6",
@@ -184,6 +163,15 @@
       "name": "🛸 ＢＴ",
       "type": 3,
       "api": "csp_Bttwoo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Libvio",
+      "name": "🦋 破茧 | 追剧神站",
+      "type": 3,
+      "api": "csp_Libvio",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
