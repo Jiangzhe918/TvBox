@@ -1,6 +1,6 @@
 {
   "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Jiangzhe918/TvBox/refs/heads/main/custom_spider.jar",
-  "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
+  "wallpaper": "https://bing.img.run/rand.php",
   "lives": [
     {
       "name": "🌐 明6",
@@ -41,13 +41,22 @@
   ],
   "sites": [
     {
-      "key": "豆瓣推荐",
+      "key": "Douban",
       "name": "🌟 豆瓣",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0
+      "filterable": 1
+    },
+    {
+      "key": "Xb6v",
+      "name": "🍎 新6V",
+      "type": 3,
+      "api": "csp_Xb6v",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "csp_AppYsV2",
@@ -123,15 +132,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_Xb6v",
-      "name": "🍎 新6V",
-      "type": 3,
-      "api": "csp_Xb6v",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_Pianku",
       "name": "🎬 片库",
       "type": 3,
@@ -166,22 +166,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "csp_Libvio",
-      "name": "🦋 破茧 | 追剧神站",
-      "type": 3,
-      "api": "csp_Libvio",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "drpy_js_LIBVIO",
-      "name": "LIBVIO[js]",
-      "type": 3,
-      "api": "./libs/drpy2.min.js",
-      "ext": "./js/LIBVIO.js"
     },
     {
       "key": "csp_Nangua",
